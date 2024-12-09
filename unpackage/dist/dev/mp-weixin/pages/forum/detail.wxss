@@ -1,0 +1,338 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.detail-container.data-v-15db4200 {
+  min-height: 100vh;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+.content-scroll.data-v-15db4200 {
+  flex: 1;
+  height: calc(100vh - 100rpx);
+}
+.post-content.data-v-15db4200 {
+  background: #fff;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.post-content .user-info.data-v-15db4200 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.post-content .user-info .avatar.data-v-15db4200 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.post-content .user-info .info.data-v-15db4200 {
+  flex: 1;
+}
+.post-content .user-info .info .username.data-v-15db4200 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
+.post-content .user-info .info .time.data-v-15db4200 {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 6rpx;
+}
+.post-content .user-info .follow-btn.data-v-15db4200 {
+  min-width: 120rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  font-size: 26rpx;
+  color: #007AFF;
+  background: #f0f9ff;
+  border-radius: 28rpx;
+  padding: 0 30rpx;
+}
+.post-content .user-info .follow-btn.data-v-15db4200:active {
+  opacity: 0.8;
+  transform: scale(0.98);
+}
+.post-content .post-body .title.data-v-15db4200 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+  display: block;
+}
+.post-content .post-body .content.data-v-15db4200 {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30rpx;
+  display: block;
+}
+.post-content .post-body .image-list image.data-v-15db4200 {
+  width: 100%;
+  border-radius: 12rpx;
+  margin-bottom: 20rpx;
+  transition: all 0.3s ease;
+}
+.post-content .post-body .image-list image.data-v-15db4200:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+.post-content .post-body .image-list image.data-v-15db4200:last-child {
+  margin-bottom: 0;
+}
+.post-content .action-bar.data-v-15db4200 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30rpx;
+  padding-top: 30rpx;
+  border-top: 1rpx solid #eee;
+}
+.post-content .action-bar .action-item.data-v-15db4200 {
+  display: flex;
+  align-items: center;
+}
+.post-content .action-bar .action-item .iconfont.data-v-15db4200 {
+  font-size: 40rpx;
+  color: #999;
+  margin-right: 10rpx;
+  transition: all 0.3s ease;
+}
+.post-content .action-bar .action-item .iconfont.icon-like-fill.data-v-15db4200 {
+  color: #ff4d4f;
+  animation: likeScale-15db4200 0.3s ease;
+}
+.post-content .action-bar .action-item .count.data-v-15db4200 {
+  font-size: 26rpx;
+  color: #999;
+}
+.post-content .action-bar .action-item.data-v-15db4200:active {
+  opacity: 0.8;
+  transform: scale(0.95);
+}
+.comment-section.data-v-15db4200 {
+  background: #fff;
+  padding: 30rpx;
+}
+.comment-section .section-title.data-v-15db4200 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30rpx;
+}
+.comment-section .comment-list .comment-item.data-v-15db4200 {
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.comment-section .comment-list .comment-item .avatar.data-v-15db4200 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-main.data-v-15db4200 {
+  flex: 1;
+  margin-right: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-header.data-v-15db4200 {
+  margin-bottom: 10rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-header .username.data-v-15db4200 {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-text.data-v-15db4200 {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 10rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-footer.data-v-15db4200 {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-footer .time.data-v-15db4200 {
+  font-size: 24rpx;
+  color: #999;
+  margin-right: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-footer .reply-btn.data-v-15db4200 {
+  font-size: 24rpx;
+  color: #666;
+  padding: 4rpx 12rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .comment-footer .reply-btn.data-v-15db4200:active {
+  opacity: 0.7;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper.data-v-15db4200 {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  background: #f8f8f8;
+  border-radius: 8rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-input.data-v-15db4200 {
+  width: 100%;
+  height: 72rpx;
+  background: #fff;
+  border-radius: 36rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions.data-v-15db4200 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions text.data-v-15db4200 {
+  font-size: 28rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 4rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions text.cancel-btn.data-v-15db4200 {
+  color: #999;
+  margin-right: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions text.cancel-btn.data-v-15db4200:active {
+  opacity: 0.7;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions text.submit-btn.data-v-15db4200 {
+  color: #fff;
+  background: #007AFF;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-input-wrapper .reply-actions text.submit-btn.data-v-15db4200:active {
+  opacity: 0.8;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-list.data-v-15db4200 {
+  margin-top: 20rpx;
+  padding: 20rpx;
+  background: #f8f8f8;
+  border-radius: 8rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-list .reply-item.data-v-15db4200 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-list .reply-item.data-v-15db4200:last-child {
+  margin-bottom: 0;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-list .reply-item .reply-user.data-v-15db4200 {
+  font-size: 26rpx;
+  color: #007AFF;
+  margin-right: 10rpx;
+}
+.comment-section .comment-list .comment-item .comment-main .reply-list .reply-item .reply-text.data-v-15db4200 {
+  flex: 1;
+  font-size: 26rpx;
+  color: #333;
+  line-height: 1.5;
+}
+.comment-section .comment-list .comment-item .comment-right.data-v-15db4200 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.comment-section .comment-list .comment-item .comment-right .operation-btn.data-v-15db4200 {
+  font-size: 24rpx;
+  color: #999;
+  padding: 4rpx 12rpx;
+}
+.comment-section .comment-list .comment-item .comment-right .operation-btn.data-v-15db4200:active {
+  opacity: 0.7;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns.data-v-15db4200 {
+  display: flex;
+  align-items: center;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns .vote-item.data-v-15db4200 {
+  display: flex;
+  align-items: center;
+  margin-left: 20rpx;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns .vote-item .iconfont.data-v-15db4200 {
+  font-size: 36rpx;
+  color: #999;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns .vote-item .iconfont.icon-like-fill.data-v-15db4200 {
+  color: #007AFF;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns .vote-item .iconfont.icon-dislike-fill.data-v-15db4200 {
+  color: #ff4d4f;
+}
+.comment-section .comment-list .comment-item .comment-right .vote-btns .vote-item .count.data-v-15db4200 {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 4rpx;
+}
+.comment-bar.data-v-15db4200 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100rpx;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+  z-index: 99;
+}
+.emoji-panel.data-v-15db4200 {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 100rpx;
+  height: 400rpx;
+  background: #fff;
+  box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.05);
+  z-index: 100;
+  transform-origin: bottom;
+  animation: slideUp-15db4200 0.3s ease;
+}
+@keyframes slideUp-15db4200 {
+from {
+    transform: translateY(100%);
+}
+to {
+    transform: translateY(0);
+}
+}
+@keyframes likeScale-15db4200 {
+0% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.2);
+}
+100% {
+    transform: scale(1);
+}
+}

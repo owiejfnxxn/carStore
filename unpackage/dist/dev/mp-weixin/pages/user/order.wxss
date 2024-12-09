@@ -1,0 +1,190 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.order-container.data-v-506ae539 {
+  min-height: 100vh;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+.status-tabs.data-v-506ae539 {
+  background: #fff;
+  white-space: nowrap;
+  border-bottom: 1rpx solid #eee;
+}
+.status-tabs .tab-item.data-v-506ae539 {
+  display: inline-block;
+  padding: 30rpx 40rpx;
+  font-size: 28rpx;
+  color: #666;
+  position: relative;
+}
+.status-tabs .tab-item.active.data-v-506ae539 {
+  color: #007AFF;
+  font-weight: 500;
+}
+.status-tabs .tab-item.active.data-v-506ae539::after {
+  content: "";
+  position: absolute;
+  left: 40rpx;
+  right: 40rpx;
+  bottom: 0;
+  height: 4rpx;
+  background: #007AFF;
+  border-radius: 2rpx;
+}
+.order-list.data-v-506ae539 {
+  flex: 1;
+  padding: 20rpx;
+}
+.order-item.data-v-506ae539 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.order-item .order-header.data-v-506ae539 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.order-item .order-header .order-no.data-v-506ae539 {
+  font-size: 26rpx;
+  color: #999;
+}
+.order-item .order-header .order-status.data-v-506ae539 {
+  font-size: 28rpx;
+  font-weight: 500;
+}
+.order-item .order-header .order-status.pending.data-v-506ae539 {
+  color: #faad14;
+}
+.order-item .order-header .order-status.paid.data-v-506ae539 {
+  color: #007AFF;
+}
+.order-item .order-header .order-status.refunding.data-v-506ae539 {
+  color: #ff4d4f;
+}
+.order-item .order-header .order-status.completed.data-v-506ae539 {
+  color: #52c41a;
+}
+.order-item .order-header .order-status.cancelled.data-v-506ae539 {
+  color: #999;
+}
+.order-item .product-info.data-v-506ae539 {
+  display: flex;
+  margin-bottom: 20rpx;
+}
+.order-item .product-info image.data-v-506ae539 {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 12rpx;
+  margin-right: 20rpx;
+}
+.order-item .product-info .info-content.data-v-506ae539 {
+  flex: 1;
+}
+.order-item .product-info .info-content .product-name.data-v-506ae539 {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 12rpx;
+  display: block;
+}
+.order-item .product-info .info-content .product-specs.data-v-506ae539 {
+  margin-bottom: 12rpx;
+}
+.order-item .product-info .info-content .product-specs .spec-item.data-v-506ae539 {
+  display: inline-block;
+  padding: 4rpx 12rpx;
+  font-size: 24rpx;
+  color: #666;
+  background: #f5f5f5;
+  border-radius: 4rpx;
+  margin-right: 10rpx;
+}
+.order-item .product-info .info-content .price-info text.data-v-506ae539 {
+  font-size: 26rpx;
+  color: #ff4d4f;
+  margin-right: 20rpx;
+}
+.order-item .order-footer.data-v-506ae539 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20rpx;
+  border-top: 1rpx solid #eee;
+}
+.order-item .order-footer .time.data-v-506ae539 {
+  font-size: 24rpx;
+  color: #999;
+}
+.order-item .order-footer .action-btns.data-v-506ae539 {
+  display: flex;
+  gap: 20rpx;
+}
+.order-item .order-footer .action-btns button.data-v-506ae539 {
+  min-width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+}
+.order-item .order-footer .action-btns button.cancel-btn.data-v-506ae539 {
+  color: #666;
+  background: #f5f5f5;
+}
+.order-item .order-footer .action-btns button.refund-btn.data-v-506ae539 {
+  color: #ff4d4f;
+  background: #fff2f0;
+}
+.order-item .order-footer .action-btns button.detail-btn.data-v-506ae539 {
+  color: #007AFF;
+  background: #e6f7ff;
+}
+.empty-state.data-v-506ae539 {
+  padding: 100rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty-state image.data-v-506ae539 {
+  width: 240rpx;
+  height: 240rpx;
+  margin-bottom: 20rpx;
+}
+.empty-state text.data-v-506ae539 {
+  font-size: 28rpx;
+  color: #999;
+}
+.loading-more.data-v-506ae539 {
+  text-align: center;
+  padding: 30rpx 0;
+}
+.loading-more text.data-v-506ae539 {
+  font-size: 24rpx;
+  color: #999;
+}

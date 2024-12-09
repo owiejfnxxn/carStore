@@ -1,0 +1,125 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.about-container.data-v-76431d09 {
+  min-height: 100vh;
+  background: #f8f9fa;
+  padding: 60rpx 30rpx;
+}
+.brand-info.data-v-76431d09 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60rpx;
+}
+.brand-info .logo.data-v-76431d09 {
+  width: 160rpx;
+  height: 160rpx;
+  margin-bottom: 20rpx;
+}
+.brand-info .app-name.data-v-76431d09 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12rpx;
+}
+.brand-info .version.data-v-76431d09 {
+  font-size: 24rpx;
+  color: #999;
+}
+.info-section.data-v-76431d09 {
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.info-section .section-title.data-v-76431d09 {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.info-section .section-title.data-v-76431d09::before {
+  content: "";
+  display: inline-block;
+  width: 6rpx;
+  height: 24rpx;
+  background: #007AFF;
+  border-radius: 3rpx;
+  margin-right: 12rpx;
+  vertical-align: -3rpx;
+}
+.info-section .company-desc.data-v-76431d09 {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.info-section .contact-list .contact-item.data-v-76431d09 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+.info-section .contact-list .contact-item.data-v-76431d09:not(:last-child) {
+  border-bottom: 1rpx solid #eee;
+}
+.info-section .contact-list .contact-item .label.data-v-76431d09 {
+  font-size: 28rpx;
+  color: #333;
+}
+.info-section .contact-list .contact-item .value.data-v-76431d09 {
+  font-size: 28rpx;
+  color: #666;
+}
+.action-list.data-v-76431d09 {
+  background: #fff;
+  border-radius: 16rpx;
+  margin-bottom: 60rpx;
+}
+.action-list .action-item.data-v-76431d09 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx;
+}
+.action-list .action-item.data-v-76431d09:not(:last-child) {
+  border-bottom: 1rpx solid #eee;
+}
+.action-list .action-item text.data-v-76431d09 {
+  font-size: 28rpx;
+  color: #333;
+}
+.action-list .action-item text.icon-arrow-right.data-v-76431d09 {
+  color: #999;
+}
+.copyright.data-v-76431d09 {
+  text-align: center;
+}
+.copyright text.data-v-76431d09 {
+  font-size: 24rpx;
+  color: #999;
+  display: block;
+  line-height: 1.8;
+}

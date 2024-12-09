@@ -1,0 +1,173 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "你很机车",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/forum/index",
+			"style": {
+				"navigationBarTitleText": "论坛"
+			}
+		},
+		{
+			"path": "pages/spots/index",
+			"style": {
+				"navigationBarTitleText": "热门网点"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/product/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/product/list",
+			"style": {
+				"navigationBarTitleText": "你很机车"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/forum/detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/forum/create",
+			"style": {
+				"navigationBarTitleText": "发布帖子",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/product/test-drive",
+			"style": {
+				"navigationBarTitleText": "预约试驾"
+			}
+		},
+		{
+			"path": "pages/product/order",
+			"style": {
+				"navigationBarTitleText": "立即订购"
+			}
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/user/order",
+			"style": {
+				"navigationBarTitleText": "购车订单"
+			}
+		},
+		{
+			"path": "pages/user/order-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/test-drive-list",
+			"style": {
+				"navigationBarTitleText": "预约试驾记录"
+			}
+		},
+		{
+			"path": "pages/user/test-drive-detail",
+			"style": {
+				"navigationBarTitleText": "试驾预约详情"
+			}
+		},
+		{
+			"path": "pages/user/repair",
+			"style": {
+				"navigationBarTitleText": "维修保养"
+			}
+		},
+		{
+			"path": "pages/user/repair-add",
+			"style": {
+				"navigationBarTitleText": "预约维修保养"
+			}
+		},
+		{
+			"path": "pages/user/repair-detail",
+			"style": {
+				"navigationBarTitleText": "维修保养详情"
+			}
+		},
+		{
+			"path": "pages/user/points",
+			"style": {
+				"navigationBarTitleText": "积分中心"
+			}
+		},
+		{
+			"path": "pages/user/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/forum/index",
+				"text": "论坛"
+			},
+			{
+				"pagePath": "pages/spots/index",
+				"text": "热门网点"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

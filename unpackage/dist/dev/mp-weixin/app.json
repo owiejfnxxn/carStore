@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/forum/index",
+    "pages/spots/index",
+    "pages/user/index",
+    "pages/product/detail",
+    "pages/product/list",
+    "pages/login/index",
+    "pages/login/register",
+    "pages/forum/detail",
+    "pages/forum/create",
+    "pages/product/test-drive",
+    "pages/product/order",
+    "pages/user/profile",
+    "pages/user/order",
+    "pages/user/order-detail",
+    "pages/user/test-drive-list",
+    "pages/user/test-drive-detail",
+    "pages/user/repair",
+    "pages/user/repair-add",
+    "pages/user/repair-detail",
+    "pages/user/points",
+    "pages/user/about"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/forum/index",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/spots/index",
+        "text": "热门网点"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
